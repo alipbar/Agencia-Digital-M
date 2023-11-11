@@ -1,0 +1,126 @@
+/*Comentarios*/
+/*Selector de tipo etiqueta HTML*/
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: #7289bb;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: #34395e;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #9492c4;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+nav a:hover{
+    background: #9492c4;
+    border-radius: 10px;
+    color: #34395e;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    color: #7289bb;
+    font-size: 20pt;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+.presentacion h1{
+    color: #1b181c;
+    text-align: center;
+    font-size: 50pt;
+    font-family: 'Abril Fatface', serif;
+    text-transform: uppercase; /*Mayusculas*/;
+}
+
+#img3{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color: rgb(13, 16, 104);
+font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    text-align:center;
+    text-transform: uppercase; /*Mayusculas*/
+    
+}
+
+p{
+    color: #77461f;
+    font-size: 16pt;
+
+}
+
+ul{
+    color: #77461f;
+    font-size: 16pt;
+    
+}
+
+ol{
+    color: #77461f;
+    font-size: 16pt;
+}
+
+/*Selectores de tipo clase*/
+
+#img2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tarjeta{
+    border: 2px solid rgb(36, 12, 52); /*Borde o tope*/
+    background-color: #eac469;
+    border-radius: 14px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+/*Selector de tipo id, identificador único*/
+#título-nosotros{
+    color: rgb(70, 33, 74);
+}
+
+#título-colaboración{
+    color: rgb(70, 33, 74);
+}
+
+#título-fases{
+    color: rgb(70, 33, 74);
+}
+
+#título-trabajos{
+    color: rgb(70, 33, 74);
+}
+
+#título-formulario{
+    color: rgb(70, 33, 74);
